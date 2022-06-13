@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../ASM/dki.css">
+
+    <link rel="stylesheet" href="../ASM/ASM.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./chitiet.css">
+    <link rel="stylesheet" href="../ASM/dki.js">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+            <img src="./280641405_1064127584277577_7200497833858721129_n.jpg" alt="" class="header_img">
+            <p>Bao Coffee</p>
+            <div class="header_p1">HOME</div>
+            <div class="header_p2">Product</div>
+            <div class="header_p3">About</div>
+            <div class="header_p4">Contact</div>
+            <i class="fa-light fa-magnifying-glass"></i>
+        </div>
+        <div class="container">
+            <article>
+                <form action="#" name="form" onsubmit="return dangky()" id="thanhvien">
+                    <h1 class="title">ĐĂNG KÝ</h1>
+                    <p>
+                        <label><input type="text" name="dangnhap" placeholder="Tên đăng nhập*"></label>
+                    </p>
+                    <p>
+                        <label><input type="password" name="password" placeholder="Mật khẩu*"></label>
+                    </p>
+                    <p>
+                        <label><input type="text" name="hovaten" placeholder="Họ và tên"></label>
+                    </p>
+                    <p>
+                        <label><input type="number" name="sodienthoai" placeholder="Số điện thoại*"></label>
+                    </p>
+                    <p>
+                        <label><input type="text" name="diachigiaohang" placeholder="Địa chỉ giao hàng*"></label>
+                    </p>
+                    <p>
+                        <label><input type="email" name="gmail" id="" placeholder="Gmail"></label>       
+                    </p>
+                    <button class="dangky">ĐĂNG KÝ</button>
+                </form>
+            </article>
+            <aside>
+                <h1 class="title">TRẠNG THÁI</h1>
+                <p>
+                    <div id="tendangnhap"></div>
+                </p>
+                <p>
+                    <div id="password"></div>
+                </p>
+                <p>
+                    <div id="hovaten"></div>
+                </p>
+                <p>
+                    <div id="number"></div>
+                </p>
+                <p>
+                    <div id="diachigiaohang"></div>
+                </p>
+                <p>
+                    <div id="email"></div>
+                </p>
+            </aside>
+        </div>
+    </div>
+</body>
+</html>
